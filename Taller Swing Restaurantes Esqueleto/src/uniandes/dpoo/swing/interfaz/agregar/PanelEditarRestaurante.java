@@ -49,6 +49,7 @@ public class PanelEditarRestaurante extends JPanel
     public boolean getVisitado( )
     {
         // TODO completar
+    	
         return false;
     }
 

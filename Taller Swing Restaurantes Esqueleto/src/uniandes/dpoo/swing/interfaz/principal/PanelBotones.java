@@ -4,6 +4,7 @@ import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+import javax.swing.Icon;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 
@@ -31,10 +32,12 @@ public class PanelBotones extends JPanel implements ActionListener
         setLayout( new FlowLayout( ) );
 
         // Agrega el botón para crear un nuevo restaurante
-        // TODO completar
-
+        // TODO completar¡
+        butNuevo = new JButton();
+        
         // Agrega el botón para ver todos los restaurantes
         // TODO completar
+        
     }
 
     @Override

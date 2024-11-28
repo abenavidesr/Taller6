@@ -32,9 +32,12 @@ public class PanelDetallesRestaurante extends JPanel
     {
         // Configura la etiqueta para el nombre
         // TODO completar el constructor
+    	labNombre = new JLabel();
+    	
 
         // Configura la etiqueta para la calificación
         // TODO completar el constructor
+    	
 
         // Configura el checkbox para indicar si ya se visitaó o no el restaurante
         // TODO completar el constructor

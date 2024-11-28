@@ -54,6 +54,7 @@ public class VentanaAgregarRestaurante extends JFrame
     public void agregarRestaurante( )
     {
         // TODO completar
+    	panelDetalles.
     }
 
     /**
