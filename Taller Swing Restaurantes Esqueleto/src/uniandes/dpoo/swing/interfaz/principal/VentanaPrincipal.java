@@ -1,6 +1,7 @@
 package uniandes.dpoo.swing.interfaz.principal;
 
 import java.awt.BorderLayout;
+import java.awt.GridLayout;
 import java.util.List;
 
 import javax.swing.JFrame;
@@ -54,8 +55,8 @@ public class VentanaPrincipal extends JFrame
 
         pLista = new PanelLista( this );
         add( pLista );
-
-        pDetalles = new PanelDetallesRestaurante( );
+        
+        pDetalles = new PanelDetallesRestaurante( new GridLayout(3,1));
         add( pDetalles, BorderLayout.SOUTH );
 
         // Actualiza los restaurantes que se muestran

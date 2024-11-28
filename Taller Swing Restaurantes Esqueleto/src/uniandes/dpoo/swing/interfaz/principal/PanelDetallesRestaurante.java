@@ -28,22 +28,32 @@ public class PanelDetallesRestaurante extends JPanel
      */
     private JCheckBox chkVisitado;
 
-    public PanelDetallesRestaurante( )
+    public PanelDetallesRestaurante( GridLayout grid)
     {
+   
+    	
+    	
         // Configura la etiqueta para el nombre
         // TODO completar el constructor
     	labNombre = new JLabel();
     	
+    	
 
         // Configura la etiqueta para la calificación
         // TODO completar el constructor
+    	labCalificacion = new JLabel();
     	
 
         // Configura el checkbox para indicar si ya se visitaó o no el restaurante
         // TODO completar el constructor
+    	chkVisitado = new JCheckBox();
 
         // Organiza los elementos en la venta
         // TODO completar el constructor
+    	this.add("Nombre: ", labNombre);
+    	this.add("Calificacion: ", labCalificacion);
+    	this.add("Visitado: ", chkVisitado);
+    	
     }
 
     /**
